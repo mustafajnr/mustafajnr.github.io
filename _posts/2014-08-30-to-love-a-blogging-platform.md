@@ -16,7 +16,7 @@ But one of the more serious stuff that has always bugged me was that, giving the
 
 What is the best blogging platform out there?
 
-I know, mind blowing, right? Ok, not so much.
+I know, a mind blowing question, right? Ok, not so much.
 
 But it was an important question for me. I wanted something that would be perfect for what I want done, and most of what I was going to do was ramble on about code and programming.
 
@@ -32,7 +32,7 @@ Today, I decided to start anew, and to start anew, I had to, once again, ask mys
 
 What is the best blogging platform for coders?
 
-That was an interesting twist that made alot of difference for me, and caused much of my agony today.
+That was an interesting twist that made a lot of difference for me, and caused much of my agony today.
 
 Google. top blogging platfoms for coders. Searching instead for top blogging *platforms* for coders. skipping the first few ads. Bingo.
 
@@ -40,13 +40,13 @@ First, there was [that closed question on StackOverflow](http://stackoverflow.co
 
 Then, there was [that question on Quora](http://www.quora.com/Whats-the-best-blogging-platform-for-programmers) that had increasing mentions for Jekyll and Github; then there was [that post](https://news.ycombinator.com/item?id=8069998), and [that post](http://sixrevisions.com/tools/open-source-blogging-platforms-for-developers/). I found alot of people talk about this Jekyll and that Github Pages.
 
-I started digging more into them. I found out that Github Pages is just a place to publish static HTML pages. Not much bloggery, but I can install something that would make it blog-like. That was when I started looked into Jekyll; a static HTML generator using Markdown.
+I started digging more into them. I found out that Github Pages is just a place to publish static HTML pages. Not much bloggery, but I can install something that would make it blog-like. That was when I started looking into Jekyll; a static HTML generator using Markdown.
 
 Just what I wanted.
 
-I looked more into how I could install it, and found it bundled at the bottom of Github Pages homepage [here](https://help.github.com/articles/using-jekyll-with-pages). Unfortunately, the tutorial missed some important information that kept me frustrated for about three hours (you need to install Ruby, as well as its Development Kit to be able to install json, which, in turn, will help in the installation of Jekyll on your machine). After fixing this problem, I found [this amazing blogpost](http://joshualande.com/jekyll-github-pages-poole/) that pointed me to [this github repo](https://github.com/poole/poole), which rendered my seven hours of work pointless.
+I looked more into how I could install it, and found a link to the installation info I needed bundled at the bottom of Github Pages homepage [here](https://help.github.com/articles/using-jekyll-with-pages). Unfortunately, the tutorial missed some important information that kept me frustrated for about three hours (you need to install Ruby, as well as its Development Kit to be able to install json, which, in turn, will help in the installation of Jekyll on your machine). After fixing this problem, I found [this amazing blogpost](http://joshualande.com/jekyll-github-pages-poole/) that pointed me to [this github repo](https://github.com/poole/poole), which rendered my seven hours of work, three hours of frustration included, pointless.
 
-Now comes the best part. Instead of using Github's push & commit routine for blogging, I stumbled upon [this amazing tool](http://prose.io) that makes the operation so much easier, and so familiar to those who are used to the orthodox way to blog.
+Now comes the best part. Instead of using Github's push & commit routine for blogging, I stumbled upon [this amazing tool](http://prose.io) that makes the operation so much easier, and so familiar to those who are used to the orthodox way of blogging.
 
 All in all, a good experience that taught me to check more tutorials before walking through one. So far, I am enjoying the experience, and I will try to do experiment more, and as much as I can document those experiments.
 
