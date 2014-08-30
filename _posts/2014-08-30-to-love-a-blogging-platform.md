@@ -6,137 +6,52 @@ published: true
 
 >And so, a question was asked. Perhabs not [the oldest question in the universe] (http://tardis.wikia.com/wiki/The_Question) - [Doctor Who] (http://en.wikipedia.org/wiki/Doctor_Who) fans will relate -, but it was a question, and an important one nonetheless, and it needed to be answered.
 
-A very long time ago, I decided to start a blog. Three long times later, I decided to start a blog. Now, seven long times after, I decided to start it.
+A very long time ago, I decided to start a blog. Three long times later, I decided to start a blog. Now, seven long times after, I decided to start a blog.
 
-No, seriously this time. :D
+No, seriously this time.
 
-These ten long times, I looked here and there, trying to find the best coding platform. Recommendations were generally going to [Wordpress](http://www.wordpress.com) and [Blogger](http://www.blogger.com), 
+These ten long times, I always had stuff to do that prevented me from starting that marvelous blog, the most important of which was one oh-so-damn-good bed! Really, when I lie down, you'd have to go through tremendous trouble and effort to get me out of it.
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+But one of the more serious stuff that has always bugged me was that, giving the fact that I am an insanely-strict perfectionist, I was always on the lookout for the best. And so, for me to decide to start a blog, I had to ask myself the question:
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+What is the best blogging platform out there?
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+I know, mind blowing, right? Ok, not so much.
 
-## Inline HTML elements
+But it was an important question for me. I wanted something that would be perfect for what I want done, and most of what I was going to do was ramble on about code and programming.
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+Back then, I wasn't that strict; all I wanted was to just start, and so I started my search.
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+Google. top blogging platforms. skip the first few ads. Bingo.
 
-Most of these elements are styled by browsers with few modifications on our part.
+I found a few interesting results, and the two most common platforms stood out, as expected; [Wordpress](http://www.wordpress.com) and [Blogger](http://www.blogger.com).
 
-## Heading
+I started a [blog](http://mustafajnr.blogspot.com), and published [my first post](http://mustafajnr.blogspot.com/2013/01/setting-up-blog-horror.html) - a similar rambling to what I am doing here right now -, and made a promise to publish in it once a week, and I lived to fulfill my promise, a year and 4 months later, with [that arabic post about Java classloaders](http://mustafajnr.blogspot.com/2014/05/java-classloaders.html).
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Today, I decided to start anew, and to start anew, I had to, once again, ask myself the question, but since I am now more strict as a perfectionist, I altered the question a little bit.
 
-### Code
+What is the best blogging platform for coders?
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+That was an interesting twist that made alot of difference for me, and caused much of my agony today.
 
-{% highlight js %}
-// Example can be run directly in your JavaScript console
+Google. top blogging platfoms for coders. Searching instead for top blogging *platforms* for coders. skipping the first few ads. Bingo.
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+First, there was [that closed question on StackOverflow](http://stackoverflow.com/questions/24231884/best-blogging-platform-for-programmers), that, once again, suggested Wordpress with [this plugin](https://wordpress.org/plugins/syntaxhighlighter/) for syntax highlighting. There was a mention for [Jekyll](http://jekyllrb.com/) with [Github Pages](https://pages.github.com/) that I didn't look at twice.
 
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
+Then, there was [that question on Quora](http://www.quora.com/Whats-the-best-blogging-platform-for-programmers) that had increasing mentions for Jekyll and Github; then there was [that post](https://news.ycombinator.com/item?id=8069998), and [that post](http://sixrevisions.com/tools/open-source-blogging-platforms-for-developers/). I found alot of people talk about this Jekyll and that Github Pages.
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+I started digging more into them. I found out that Github Pages is just a place to publish static HTML pages. Not much bloggery, but I can install something that would make it blog-like. That was when I started looked into Jekyll; a static HTML generator using Markdown.
 
-### Gists via GitHub Pages
+Just what I wanted.
 
-Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
+I looked more into how I could install it, and found it bundled at the bottom of Github Pages homepage [here](https://help.github.com/articles/using-jekyll-with-pages). Unfortunately, the tutorial missed some important information that kept me frustrated for about three hours (you need to install Ruby, as well as its Development Kit to be able to install json, which, in turn, will help in the installation of Jekyll on your machine). After fixing this problem, I found [this amazing blogpost](http://joshualande.com/jekyll-github-pages-poole/) that pointed me to [this github repo](https://github.com/poole/poole), which rendered my seven hours of work pointless.
 
-{% gist 5555251 gist.md %}
+Now comes the best part. Instead of using Github's push & commit routine for blogging, I stumbled upon [this amazing tool](http://prose.io) that makes the operation so much easier, and so familiar to those who are used to the orthodox way to blog.
 
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
+All in all, a good experience that taught me to check more tutorials before walking through one. So far, I am enjoying the experience, and I will try to do experiment more, and as much as I can document those experiments.
 
-### Lists
+Anyway, time for the promise. I will try to write once a year, or a century maybe. I just found out about auditing in databases (yes, ***found out*** about it) and right now, I am in the midst of researching the best ways to accomplish such a tast, and I will write about it as soon as I finish that research, and that is a promise.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+Now, the new question, Is there any hope that I will finish that research within the lifetime of this universe?
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](http://placehold.it/800x400 "Large example image")
-![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](http://placehold.it/200x200 "Small example image")
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
------
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+Now that is a good question.
