@@ -6,17 +6,16 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            mJr
+tagline:          Coding Perfectionist
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Mustafa "mJr" Abdel-Tawwab Jr.
+  url:            https://twitter.com/mustafajnr
+  email:          mustafajnr@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/mustafajnr
