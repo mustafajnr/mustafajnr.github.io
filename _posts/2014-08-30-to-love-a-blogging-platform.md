@@ -4,7 +4,7 @@ title: To Love A Blogging Platform
 published: true
 ---
 
->And so, a question was asked. Perhabs not [the oldest question in the universe] (http://tardis.wikia.com/wiki/The_Question) - [Doctor Who] (http://en.wikipedia.org/wiki/Doctor_Who) fans will relate -, but it was a question, and an important one nonetheless.
+>And so, a question was asked. Perhabs not [the oldest question in the universe] (http://tardis.wikia.com/wiki/The_Question) - [Doctor Who] (http://en.wikipedia.org/wiki/Doctor_Who) fans will relate -, but it was a question, and an important one nonetheless, and it needed to be answered.
 
 A very long time ago, I decided to start a blog. Three long times later, I decided to start a blog. Now, seven long times after, I decided to start it.
 
