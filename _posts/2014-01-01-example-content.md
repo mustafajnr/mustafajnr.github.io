@@ -1,12 +1,18 @@
 ---
 layout: post
-title: Example content
+title: To Love A Blogging Platform
 ---
 
 
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+And so, a question was asked. Perhabs not [the oldest question in the universe](http://tardis.wikia.com/wiki/The_Question) - [Doctor Who](http://en.wikipedia.org/wiki/Doctor_Who) fans will relate -, but it was a question, and an important one nonetheless.
 </div>
+
+A very long time ago, I decided to start a blog. Three long times later, I decided to start a blog. Now, seven long times after, I decided to start it.
+
+No, seriously this time. :D
+
+These ten long times, I looked here and there, trying to find the best coding platform. Recommendations were generally going to [Wordpress](http://www.wordpress.com) and [Blogger](http://www.blogger.com), 
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 

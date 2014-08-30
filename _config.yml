@@ -1,21 +1,21 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:         true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            mJr
-tagline:          Coding Perfectionist
-paginate:         1
+title:            "mJr's Coding Exploits"
+tagline:          "A Perfectionist Coder's Series of Unfortunate Events"
+paginate:         5
 baseurl:          /
 author:
-  name:           Mustafa "mJr" Abdel-Tawwab Jr.
-  url:            https://twitter.com/mustafajnr
-  email:          mustafajnr@gmail.com
+  name:           "Mustafa \"mJr\" Abdel-Tawwab Jr."
+  url:            "https://twitter.com/mustafajnr"
+  email:          "mustafajnr@gmail.com"
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/mustafajnr
+  repo:           "https://github.com/mustafajnr"
