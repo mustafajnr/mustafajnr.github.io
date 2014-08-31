@@ -16,4 +16,11 @@ But, of course, nothing beats the first practical opportunity to code.
 
 # First Contact
 
-The first thing I noticed
+The first thing I noticed when I saw my technical lead's design was some strange fields that he attached to each table.
+
+* Created By
+* Creation Date
+* Modified By
+* Modification Date
+* Deleted By
+* Deletion Date
