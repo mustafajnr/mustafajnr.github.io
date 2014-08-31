@@ -30,7 +30,7 @@ I started a [blog](http://mustafajnr.blogspot.com), and published [my first post
 
 Today, I decided to start anew, and to start anew, I had to, once again, ask myself the question, but since I am now more strict as a perfectionist, I altered the question a little bit.
 
-What is the best blogging platform for coders?
+_What is the best blogging platform for coders?_
 
 That was an interesting twist that made a lot of difference for me, and caused much of my agony today.
 
