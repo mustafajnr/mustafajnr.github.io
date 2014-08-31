@@ -6,6 +6,14 @@
     font-family: 'Kotta One', serif;
 }
 
+.post {
+    font-family: 'Alef', sans-serif;
+}
+
 .post-title {
 	font-family: 'Belgrano', serif;
+}
+
+.post-date {
+    font-family: 'Rajdhani', sans-serif;
 }
