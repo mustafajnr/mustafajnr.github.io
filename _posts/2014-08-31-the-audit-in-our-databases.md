@@ -33,5 +33,29 @@ Ok, I'm lying. I did ask the question.
 
 _What is the best way to implement auditing in your database?_
 
-Little did I know that there were already several types of auditing, each is suitable for specific needs:
+At first, I start thinking on my own, leading to very strange designs.
 
+But, before we move on to other forms, let's discuss the one above.
+
+Let's assume we have the following three tables:
+
+#### Students
+
+* ID (PK)
+* Name
+* Address
+* PhoneNumber
+
+#### Courses
+
+* ID (PK)
+* Name
+* Code
+* StartingDate
+
+#### Subscriptions
+
+* ID (PK)
+* StudentID (FK : Students(ID))
+* CourseID (FK : Courses(ID))
+* Score
