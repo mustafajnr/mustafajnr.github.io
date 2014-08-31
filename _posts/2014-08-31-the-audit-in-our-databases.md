@@ -33,9 +33,7 @@ Ok, I'm lying. I did ask the question.
 
 _What is the best way to implement auditing in your database?_
 
-At first, I start thinking on my own, leading to very strange designs.
-
-But, before we move on to other forms, let's discuss the one above.
+But before I moved on to other forms, I inspected the previous method more closely.
 
 Let's assume we have the following three tables:
 
@@ -59,3 +57,48 @@ Let's assume we have the following three tables:
 * StudentID (FK : Students(ID))
 * CourseID (FK : Courses(ID))
 * Score
+
+Using the method mentioned above, we will add to each table of these the 6 columns that perform the auditing.
+
+A number of characteristics become apparent to us:
+
+1. You only keep the latest version.
+2. No rollbacks.
+
+But the thing that really bugged me was that I have to repeat those 6 columns over and over again. You may think that here in these three tables, it is not that big an issue; but when I first saw it, it was in 40 different tables, not counting joins.
+
+The first idea that came to my mind was to create a table for the common columns, and point the other tables to it.
+
+It was something like this.
+
+#### Auditable
+
+* ID (PK)
+* CreatedBy
+* CreationDate
+* ModifiedBy
+* ModificationDate
+* DeletedBy
+* DeletionDate
+
+#### Students
+
+* ID (PK, FK : Auditable(ID))
+* Name
+* Address
+* PhoneNumber
+
+#### Courses
+
+* ID (PK, FK : Auditable(ID))
+* Name
+* Code
+* StartingDate
+
+#### Subscriptions
+
+* ID (PK, FK : Auditable(ID))
+* StudentID (FK : Students(ID))
+* CourseID (FK : Courses(ID))
+* Score
+
