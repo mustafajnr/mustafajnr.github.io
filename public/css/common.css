@@ -1,3 +1,7 @@
-.masthead-title {
+.masthead-title a {
     font-family: 'Condiment', cursive;
+}
+
+.masthead-title {
+    font-family: 'Kotta One', serif;
 }
