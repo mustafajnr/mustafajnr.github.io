@@ -16,4 +16,5 @@ h1,h2,h3,h4,h5,h6 {
 
 .post-date, h3 small {
     font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
 }
