@@ -14,7 +14,7 @@ These ten long times, I always had stuff to do that prevented me from starting t
 
 But one of the more serious stuff that has always bugged me was that, giving the fact that I am an insanely-strict perfectionist, I was always on the lookout for the best. And so, for me to decide to start a blog, I had to ask myself the question:
 
-What is the best blogging platform out there?
+_What is the best blogging platform out there?_
 
 I know, a mind blowing question, right? Ok, not so much.
 
