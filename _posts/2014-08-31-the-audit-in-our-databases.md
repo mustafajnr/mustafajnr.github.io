@@ -37,26 +37,30 @@ But before I moved on to other forms, I inspected the previous method more close
 
 Let's assume we have the following three tables:
 
-#### Students
+{% highlight sql %}
 
-* ID (PK)
-* Name
-* Address
-* PhoneNumber
+CREATE TABLE Students (
+  id NUMBER PRIMARY KEY,
+  name VARCHAR(50),
+  address VARCHAR(250),
+  phone_number VARCHAR(20)
+);
 
-#### Courses
+CREATE TABLE Courses (
+  id NUMBER PRIMARY KEY,
+  name VARCHAR(50),
+  code VARCHAR(10),
+  starting_date DATE
+);
 
-* ID (PK)
-* Name
-* Code
-* StartingDate
+CREATE TABLE Subscriptions (
+  id NUMBER PRIMARY KEY;
+  student_id NUMBER NOT NULL REFERENCES Students(id),
+  course_id NUMBER NOT NULL REFERENCES Courses(id),
+  score NUMBER NOT NULL
+);
 
-#### Subscriptions
-
-* ID (PK)
-* StudentID (FK : Students(ID))
-* CourseID (FK : Courses(ID))
-* Score
+{% endhighlight %}
 
 Using the method mentioned above, we will add to each table of these the 6 columns that perform the auditing.
 
