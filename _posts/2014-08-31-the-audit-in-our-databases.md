@@ -1,8 +1,9 @@
 ---
 layout: post
 title: The Audit In Our Databases
-published: true
+published: false
 ---
+
 
 >There is nothing worse than starting your software development career, and think that things wouldn't be different than what you already did in your education; only to find the exact opposite. This is one example.
 
@@ -105,4 +106,3 @@ It was something like this.
 * StudentID (FK : Students(ID))
 * CourseID (FK : Courses(ID))
 * Score
-
