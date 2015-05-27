@@ -1,6 +1,7 @@
 ---
-published: true
+published: false
 ---
+
 
 
 
@@ -11,6 +12,14 @@ Well, that might seem a little weird, but yeah; I do believe that the path to pr
 Or rather, a number of expansions on the famous chance game might be what you need to learn different concepts and techniques in computer programming.
 
 Alright, this may not be what you expected to read as the first line of a programming tutorial. How can this simple game teach me programming?
+
+Let's consider the first version of this game:
+
+A rock-paper-scissor game between two players. Each player will play his hand, and we will decide who wins based on what they play.
+
+The above version will teach you input/output, data presentation, and simple programming mechanics.
+
+Later on, we can make the game a best-of-5 kind of game, which will include such concepts as 
 
 One of the best things about rock-paper-scissor is that I actually program variations of rock-paper-scissor when I am bored. Well, not whenever I am bored, but sometimes I utilize my boredom-filled time in something like that; and when I do, I feel a certain type of enjoynment, which was what have inspired me to start writing this.
 
